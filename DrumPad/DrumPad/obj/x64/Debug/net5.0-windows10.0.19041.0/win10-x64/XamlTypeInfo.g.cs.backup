@@ -224,27 +224,21 @@ namespace DrumPad.DrumPad_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
-            _typeNameTable[4] = "Microsoft.UI.Xaml.Controls.DropDownButton";
-            _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.Button";
-            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[7] = "DrumPad.MainWindow";
-            _typeNameTable[8] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[4] = "DrumPad.MainWindow";
+            _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
-            _typeTable[4] = typeof(global::Microsoft.UI.Xaml.Controls.DropDownButton);
-            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.Button);
-            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[7] = typeof(global::DrumPad.MainWindow);
-            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[4] = typeof(global::DrumPad.MainWindow);
+            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -280,8 +274,7 @@ namespace DrumPad.DrumPad_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_4_DropDownButton() { return new global::Microsoft.UI.Xaml.Controls.DropDownButton(); }
-        private object Activate_7_MainWindow() { return new global::DrumPad.MainWindow(); }
+        private object Activate_4_MainWindow() { return new global::DrumPad.MainWindow(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -320,28 +313,14 @@ namespace DrumPad.DrumPad_XamlTypeInfo
                 xamlType = new global::DrumPad.DrumPad_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Microsoft.UI.Xaml.Controls.DropDownButton
-                userType = new global::DrumPad.DrumPad_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Button"));
-                userType.Activator = Activate_4_DropDownButton;
-                xamlType = userType;
-                break;
-
-            case 5:   //  Microsoft.UI.Xaml.Controls.Button
-                xamlType = new global::DrumPad.DrumPad_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 6:   //  Microsoft.UI.Xaml.Controls.ContentControl
-                xamlType = new global::DrumPad.DrumPad_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 7:   //  DrumPad.MainWindow
+            case 4:   //  DrumPad.MainWindow
                 userType = new global::DrumPad.DrumPad_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_7_MainWindow;
+                userType.Activator = Activate_4_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  Microsoft.UI.Xaml.Window
+            case 5:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::DrumPad.DrumPad_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

@@ -17,6 +17,16 @@
                 <ColumnDefinition Width="200" />
             </Grid.ColumnDefinitions>
 
+            <DropDownButton Content="Display" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Height="35" Width="118" >
+                <DropDownButton.Flyout>
+                    <MenuFlyout Placement="Bottom">
+                        <MenuFlyoutItem Text="Default"/>
+                        <MenuFlyoutItem Text="Compact Overlay" />
+                        <MenuFlyoutItem Text="Fullscreen"/>
+                    </MenuFlyout>
+                </DropDownButton.Flyout>
+            </DropDownButton>
+
         </Grid>
 
         <Grid x:Name="Control1" Width="1000" Height="1000" ColumnSpacing="30" 
