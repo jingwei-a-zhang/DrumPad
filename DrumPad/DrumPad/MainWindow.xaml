@@ -36,6 +36,19 @@
 
         <Grid x:Name="Control1" Width="1000" Height="1000" ColumnSpacing="30" 
               VerticalAlignment="Center" HorizontalAlignment="Center">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220" />
+                <ColumnDefinition Width="220" />
+                <ColumnDefinition Width="220" />
+                <ColumnDefinition Width="220" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+            </Grid.RowDefinitions>
 
         </Grid>
 
