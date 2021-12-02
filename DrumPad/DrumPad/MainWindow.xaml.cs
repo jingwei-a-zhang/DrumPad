@@ -13,6 +13,8 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
+using System.Media; // to play sounds
+
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -28,6 +30,12 @@ namespace DrumPad
             this.InitializeComponent();
         }
 
+        private void pad_clicked(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer player = new System.Media.SoundPlayer(
+                @"C:\Users\Jingweizh\Downloads\mixkit-spell-waves-874.wav");
+            player.Play();
+        }
 
     }
 }

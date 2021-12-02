@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CylFlIUm3QurjvuC+8s+87tDDsECa164hVAbnnFt/cp/mm6gWa+n6AwyJm0SXJWWXGTXjj3HR8Xth9FVI39liw==",
+  "dgSpecHash": "mlTDw+PRQcBML15yuHP0WScPOqkGQO5E5J1EA+s4lskwuyMMyKS+LQiHStPXRvsge1kN9SvBS0S3JLLrnm+Q8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jingweizh\\Desktop\\GitDrumPad\\DrumPad\\DrumPad\\DrumPad.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jingweizh\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.12\\microsoft.netcore.app.runtime.win-x64.5.0.12.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.12\\microsoft.aspnetcore.app.runtime.win-x64.5.0.12.nupkg.sha512",
     "C:\\Users\\Jingweizh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\5.0.12\\microsoft.netcore.app.runtime.win-arm64.5.0.12.nupkg.sha512",
