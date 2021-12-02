@@ -27,6 +27,11 @@
                 </DropDownButton.Flyout>
             </DropDownButton>
 
+            <ToggleSwitch AutomationProperties.Name="simple ToggleSwitch" 
+                          x:Name="dark_switch" Grid.Column="2" Height="35" Width="118" CornerRadius="3" 
+                          VerticalAlignment="Center" HorizontalAlignment="Right" 
+                          HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+
         </Grid>
 
         <Grid x:Name="Control1" Width="1000" Height="1000" ColumnSpacing="30" 
