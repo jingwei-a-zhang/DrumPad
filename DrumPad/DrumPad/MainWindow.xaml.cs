@@ -32,8 +32,11 @@ namespace DrumPad
 
         private void pad_clicked(object sender, RoutedEventArgs e)
         {
-            SoundPlayer player = new System.Media.SoundPlayer(
-                @"C:\Users\Jingweizh\Downloads\mixkit-spell-waves-874.wav");
+
+            var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
+            var soundFile = Path.Join(installedPath, "Assets", "s1.wav");
+
+            SoundPlayer player = new System.Media.SoundPlayer(soundFile);
             player.Play();
         }
 

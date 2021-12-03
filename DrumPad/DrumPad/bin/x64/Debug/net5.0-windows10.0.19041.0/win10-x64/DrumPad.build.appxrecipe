@@ -745,6 +745,9 @@
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\s1.wav">
+      <PackagePath>Assets\s1.wav</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
