@@ -60,7 +60,7 @@
                 </Style>
             </Grid.Resources>
 
-            <Button Background="#EC3939" Grid.Row="0" Grid.Column="0" />
+            <Button Click="pad_clicked" Background="#EC3939" Grid.Row="0" Grid.Column="0" />
             <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" />
             <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" />
             <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" />

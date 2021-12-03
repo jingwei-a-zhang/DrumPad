@@ -27,7 +27,7 @@
                 </DropDownButton.Flyout>
             </DropDownButton>
 
-            <ToggleSwitch x:ConnectionId='3' AutomationProperties.Name="simple ToggleSwitch" 
+            <ToggleSwitch x:ConnectionId='4' AutomationProperties.Name="simple ToggleSwitch" 
                           x:Name="dark_switch" Grid.Column="2" Height="35" Width="118" CornerRadius="3" 
                           VerticalAlignment="Center" HorizontalAlignment="Right" 
                           HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
@@ -60,7 +60,7 @@
                 </Style>
             </Grid.Resources>
 
-            <Button Background="#EC3939" Grid.Row="0" Grid.Column="0" />
+            <Button x:ConnectionId='3'                     Background="#EC3939" Grid.Row="0" Grid.Column="0" />
             <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" />
             <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" />
             <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" />
