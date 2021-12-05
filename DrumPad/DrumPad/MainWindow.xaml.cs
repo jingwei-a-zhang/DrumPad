@@ -41,6 +41,7 @@ namespace DrumPad
         public MainWindow()
         {
             this.InitializeComponent();
+            m_appWindow = GetAppWindowForCurrentWindow();
         }
 
         private void pad_clicked(object sender, RoutedEventArgs e)
@@ -52,6 +53,14 @@ namespace DrumPad
             SoundPlayer player = new System.Media.SoundPlayer(soundFile);
             player.Play();
         }
+
+        private AppWindow GetAppWindowForCurrentWindow()
+        {
+            IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
+            WindowId myWndId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
+            return AppWindow.GetFromWindowId(myWndId);
+        }
+
 
     }
 }
