@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-12-05T22:03:12.054</Modified>
+      <Modified>2021-12-05T22:20:55.612</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-12-05T22:03:11.808</Modified>
+      <Modified>2021-12-05T22:20:55.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.runtimeconfig.json">
       <PackagePath>DrumPad.runtimeconfig.json</PackagePath>
-      <Modified>2021-12-02T23:43:18.032</Modified>
+      <Modified>2021-12-05T22:20:55.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.dll">
       <PackagePath>DrumPad.dll</PackagePath>
-      <Modified>2021-12-05T22:03:11.665</Modified>
+      <Modified>2021-12-05T22:20:54.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\obj\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DrumPad.exe</PackagePath>
-      <Modified>2021-12-05T22:03:11.677</Modified>
+      <Modified>2021-12-05T22:20:54.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.deps.json">
       <PackagePath>DrumPad.deps.json</PackagePath>
-      <Modified>2021-12-05T21:39:52.643</Modified>
+      <Modified>2021-12-05T22:20:54.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\.nuget\packages\microsoft.netcore.app.runtime.win-x64\5.0.12\runtimes\win-x64\lib\net5.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -987,7 +987,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.runtimeconfig.dev.json">
       <PackagePath>DrumPad.runtimeconfig.dev.json</PackagePath>
-      <Modified>2021-12-02T23:43:18.033</Modified>
+      <Modified>2021-12-05T22:20:55.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
