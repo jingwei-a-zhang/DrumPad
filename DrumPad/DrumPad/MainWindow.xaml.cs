@@ -15,6 +15,15 @@ using Windows.Foundation.Collections;
 
 using System.Media; // to play sounds
 
+using WinRT;
+// Needed for WindowId
+using Microsoft.UI;
+// Needed for AppWindow
+using Microsoft.UI.Windowing;
+// Needed for XAML hwnd interop
+using WinRT.Interop;
+
+
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -25,6 +34,10 @@ namespace DrumPad
     /// </summary>
     public sealed partial class MainWindow : Window
     {
+
+        AppWindow m_appWindow;
+        CompactOverlayPresenter c;
+
         public MainWindow()
         {
             this.InitializeComponent();
