@@ -61,6 +61,13 @@ namespace DrumPad
             return AppWindow.GetFromWindowId(myWndId);
         }
 
+        private void SwitchPresenter(object sender, RoutedEventArgs e)
+        {
+
+            m_appWindow.SetPresenter(AppWindowPresenterKind.CompactOverlay);
+
+        }
+
 
     }
 }
