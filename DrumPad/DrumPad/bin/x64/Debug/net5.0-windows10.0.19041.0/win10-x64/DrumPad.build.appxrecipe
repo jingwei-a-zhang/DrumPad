@@ -742,11 +742,29 @@
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\bin\x64\Debug\net5.0-windows10.0.19041.0\win10-x64\DrumPad.runtimeconfig.dev.json">
       <PackagePath>DrumPad.runtimeconfig.dev.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\crash.wav">
+      <PackagePath>Assets\crash.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\elec1.wav">
+      <PackagePath>Assets\elec1.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\high_snare.wav">
+      <PackagePath>Assets\high_snare.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\high_snare2.wav">
+      <PackagePath>Assets\high_snare2.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\kick.wav">
+      <PackagePath>Assets\kick.wav</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\s1.wav">
-      <PackagePath>Assets\s1.wav</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\rim.wav">
+      <PackagePath>Assets\rim.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\snare.wav">
+      <PackagePath>Assets\snare.wav</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -762,6 +780,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\tom.wav">
+      <PackagePath>Assets\tom.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\trash.wav">
+      <PackagePath>Assets\trash.wav</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jingweizh\Desktop\GitDrumPad\DrumPad\DrumPad\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>

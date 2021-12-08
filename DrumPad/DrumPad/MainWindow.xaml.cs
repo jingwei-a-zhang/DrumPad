@@ -34,7 +34,7 @@ namespace DrumPad
         {
 
             var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
-            var soundFile = Path.Join(installedPath, "Assets", "s1.wav");
+            var soundFile = Path.Join(installedPath, "Assets", "rim.wav");
 
             SoundPlayer player = new System.Media.SoundPlayer(soundFile);
             player.Play();
