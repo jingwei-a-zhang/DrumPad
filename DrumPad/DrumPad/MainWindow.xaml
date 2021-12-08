@@ -61,18 +61,18 @@
             </Grid.Resources>
 
             <Button Click="pad_clicked" Background="#EC3939" Grid.Row="0" Grid.Column="0" />
-            <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" />
-            <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" />
+            <Button Click="pad2_clicked" Background="#C4425A" Grid.Row="0" Grid.Column="1" />
+            <Button Click="pad3_clicked" Background="#D41DD8" Grid.Row="0" Grid.Column="2" />
             <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" />
 
-            <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" />
-            <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" />
-            <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" />
+            <Button Click="pad4_clicked" Background="#C4425A" Grid.Row="1" Grid.Column="0" />
+            <Button Click="pad5_clicked" Background="#D41DD8" Grid.Row="1" Grid.Column="1" />
+            <Button Click="pad6_clicked" Background="#6A21A3" Grid.Row="1" Grid.Column="2" />
             <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" />
 
-            <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" />
-            <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" />
-            <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" />
+            <Button Click="pad7_clicked" Background="#D41DD8" Grid.Row="2" Grid.Column="0" />
+            <Button Click="pad8_clicked" Background="#6A21A3" Grid.Row="2" Grid.Column="1" />
+            <Button Click="pad9_clicked" Background="#473DB8" Grid.Row="2" Grid.Column="2" />
             <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" />
 
             <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" />

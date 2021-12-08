@@ -27,7 +27,7 @@
                 </DropDownButton.Flyout>
             </DropDownButton>
 
-            <ToggleSwitch x:ConnectionId='4' AutomationProperties.Name="simple ToggleSwitch" 
+            <ToggleSwitch x:ConnectionId='12' AutomationProperties.Name="simple ToggleSwitch" 
                           x:Name="dark_switch" Grid.Column="2" Height="35" Width="118" CornerRadius="3" 
                           VerticalAlignment="Center" HorizontalAlignment="Right" 
                           HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
@@ -61,18 +61,18 @@
             </Grid.Resources>
 
             <Button x:ConnectionId='3'                     Background="#EC3939" Grid.Row="0" Grid.Column="0" />
-            <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" />
-            <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" />
+            <Button x:ConnectionId='4'                      Background="#C4425A" Grid.Row="0" Grid.Column="1" />
+            <Button x:ConnectionId='5'                      Background="#D41DD8" Grid.Row="0" Grid.Column="2" />
             <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" />
 
-            <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" />
-            <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" />
-            <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" />
+            <Button x:ConnectionId='6'                      Background="#C4425A" Grid.Row="1" Grid.Column="0" />
+            <Button x:ConnectionId='7'                      Background="#D41DD8" Grid.Row="1" Grid.Column="1" />
+            <Button x:ConnectionId='8'                      Background="#6A21A3" Grid.Row="1" Grid.Column="2" />
             <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" />
 
-            <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" />
-            <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" />
-            <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" />
+            <Button x:ConnectionId='9'                      Background="#D41DD8" Grid.Row="2" Grid.Column="0" />
+            <Button x:ConnectionId='10'                      Background="#6A21A3" Grid.Row="2" Grid.Column="1" />
+            <Button x:ConnectionId='11'                      Background="#473DB8" Grid.Row="2" Grid.Column="2" />
             <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" />
 
             <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" />
