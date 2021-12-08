@@ -8,8 +8,25 @@
             <ResourceDictionary.MergedDictionaries>
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!-- Other merged dictionaries here -->
+                
             </ResourceDictionary.MergedDictionaries>
             <!-- Other app resources here -->
+
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="HomePageBackgroundBrush" Color="Transparent"/>
+                    <SolidColorBrush x:Key="PageHeaderForegroundBrush" Color="Black"/>
+                    <SolidColorBrush x:Key="ButtonColor1" Color="Red" />
+
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="HomePageBackgroundBrush" Color="Black"/>
+                    <SolidColorBrush x:Key="PageHeaderForegroundBrush" Color="White"/>
+                    <SolidColorBrush x:Key="ButtonColor1" Color="DarkRed"  />
+
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        
         </ResourceDictionary>
     </Application.Resources>
 </Application>

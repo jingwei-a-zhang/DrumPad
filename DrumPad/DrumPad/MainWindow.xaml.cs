@@ -22,6 +22,7 @@ using Microsoft.UI;
 using Microsoft.UI.Windowing;
 // Needed for XAML hwnd interop
 using WinRT.Interop;
+using Windows.Storage;
 
 
 // To learn more about WinUI, the WinUI project structure,
@@ -46,9 +47,11 @@ namespace DrumPad
 
         private void pad_clicked(object sender, RoutedEventArgs e)
         {
-
+            // This gives you the installed location path
             var installedPath = Windows.ApplicationModel.Package.Current.InstalledLocation.Path;
-            var soundFile = Path.Join(installedPath, "Assets", "s1.wav");
+
+            // Final path to the sound file
+            var soundFile = Path.Join(installedPath, "Assets", "rim.wav");
 
             SoundPlayer player = new System.Media.SoundPlayer(soundFile);
             player.Play();
@@ -68,6 +71,40 @@ namespace DrumPad
 
         }
 
+        private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
+        {
+            ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+            if (toggleSwitch != null)
+            {
+                if (toggleSwitch.IsOn == true)
+                {
+                    if (this.Content is FrameworkElement frameworkElement)
+                    {
+                        frameworkElement.RequestedTheme = ElementTheme.Dark;
+                    }
+                }
+                else
+                {
+                    if (this.Content is FrameworkElement frameworkElement)
+                    {
+                        frameworkElement.RequestedTheme = ElementTheme.Light;
+                    }
+                }
+            }
 
+            ApplicationData.Current.LocalSettings.Values["themeSetting"] =
+                                                     ((ToggleSwitch)sender).IsOn ? 0 : 1;
+        }
+
+        private void ToggleSwitch_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (ApplicationData.Current.LocalSettings.Values.TryGetValue("themeSetting", out object themeSetting) && (int)themeSetting == 0)
+            {
+                dark_switch.IsOn = true;
+            } else
+            {
+                dark_switch.IsOn = false;
+            }
+        }
     }
 }
