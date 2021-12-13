@@ -39,7 +39,7 @@
 
         </Grid>
 
-        <Grid x:Name="Control1" Grid.Row="1" ColumnSpacing="30" 
+        <Grid x:Name="Control1" Grid.Row="1" ColumnSpacing="30" RowSpacing="12"
               VerticalAlignment="Center" HorizontalAlignment="Center">
             
             <Grid.ColumnDefinitions>
@@ -62,29 +62,28 @@
                     <Setter Property="CornerRadius" Value="5" />
                     <Setter Property="Foreground" Value="White" />
                     <Setter Property="FontSize" Value="36" />
-                    <Setter Property="Margin" Value="0, 12, 0, 12"/>
                 </Style>
             </Grid.Resources>
 
-            <Button Click="pad_clicked" Background="{ThemeResource ButtonColor1}" Grid.Row="0" Grid.Column="0" />
-            <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" />
-            <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" />
-            <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" />
+            <Button Click="pad_clicked" Background="{ThemeResource ButtonColor1}" Grid.Row="0" Grid.Column="0" Content="Kick 1"/>
+            <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" Content="Kick 2"/>
+            <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" Content="Kick 3"/>
+            <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" Content="Kick 4"/>
 
-            <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" />
-            <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" />
-            <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" />
-            <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" />
+            <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" Content="Clap 1"/>
+            <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" Content="Clap 2"/>
+            <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" Content="Clap 3"/>
+            <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" Content="Clap 4"/>
 
-            <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" />
-            <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" />
-            <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" />
-            <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" />
+            <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" Content="Open Hat 1"/>
+            <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" Content="Open Hat 2"/>
+            <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" Content="Open Hat 3"/>
+            <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" Content="Open Hat 4"/>
 
-            <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" />
-            <Button Background="#473DB8" Grid.Row="3" Grid.Column="1" />
-            <Button Background="#26AAC7" Grid.Row="3" Grid.Column="2" />
-            <Button Background="#1A7BD6" Grid.Row="3" Grid.Column="3" />
+            <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" Content="Snare 1"/>
+            <Button Background="#473DB8" Grid.Row="3" Grid.Column="1" Content="Snare 2"/>
+            <Button Background="#26AAC7" Grid.Row="3" Grid.Column="2" Content="Snare 3"/>
+            <Button Background="#1A7BD6" Grid.Row="3" Grid.Column="3" Content="Snare 4"/>
 
 
         </Grid>
