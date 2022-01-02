@@ -78,6 +78,14 @@ namespace DrumPad
 
         }
 
+        private void SwitchPresenterFullScreen(object sender, RoutedEventArgs e)
+        {
+
+            m_appWindow.SetPresenter(AppWindowPresenterKind.FullScreen);
+
+        }
+
+
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
             ToggleSwitch toggleSwitch = sender as ToggleSwitch;

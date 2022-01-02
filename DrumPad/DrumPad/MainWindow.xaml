@@ -26,7 +26,7 @@
                     <MenuFlyout Placement="Bottom">
                         <MenuFlyoutItem Text="Default" Click="SwitchPresenterDefault"/>
                         <MenuFlyoutItem Text="Compact Overlay" Click="SwitchPresenter"/>
-                        <MenuFlyoutItem Text="Fullscreen"/>
+                        <MenuFlyoutItem Text="Fullscreen" Click="SwitchPresenterFullScreen"/>
                     </MenuFlyout>
                 </DropDownButton.Flyout>
             </DropDownButton>

@@ -26,7 +26,7 @@
                     <MenuFlyout Placement="Bottom">
                         <MenuFlyoutItem x:ConnectionId='5' Text="Default"                               />
                         <MenuFlyoutItem x:ConnectionId='6' Text="Compact Overlay"                        />
-                        <MenuFlyoutItem Text="Fullscreen"/>
+                        <MenuFlyoutItem x:ConnectionId='7' Text="Fullscreen"                                  />
                     </MenuFlyout>
                 </DropDownButton.Flyout>
             </DropDownButton>
