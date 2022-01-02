@@ -71,6 +71,13 @@ namespace DrumPad
 
         }
 
+        private void SwitchPresenterDefault(object sender, RoutedEventArgs e)
+        {
+
+            m_appWindow.SetPresenter(AppWindowPresenterKind.Default);
+
+        }
+
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
             ToggleSwitch toggleSwitch = sender as ToggleSwitch;
@@ -108,3 +115,5 @@ namespace DrumPad
         }
     }
 }
+
+
