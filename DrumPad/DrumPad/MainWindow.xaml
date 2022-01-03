@@ -24,9 +24,9 @@
             <DropDownButton Content="Display" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="118" >
                 <DropDownButton.Flyout>
                     <MenuFlyout Placement="Bottom">
-                        <MenuFlyoutItem Text="Default" Click="SwitchPresenterDefault"/>
-                        <MenuFlyoutItem Text="Compact Overlay" Click="SwitchPresenter"/>
-                        <MenuFlyoutItem Text="Fullscreen" Click="SwitchPresenterFullScreen"/>
+                        <MenuFlyoutItem x:Name="OverlappedBtn" Text="Default" Click="SwitchPresenter_Updated"/>
+                        <MenuFlyoutItem x:Name="CompactoverlaytBtn" Text="Compact Overlay" Click="SwitchPresenter_Updated"/>
+                        <MenuFlyoutItem x:Name="FullscreenBtn" Text="Fullscreen" Click="SwitchPresenter_Updated"/>
                     </MenuFlyout>
                 </DropDownButton.Flyout>
             </DropDownButton>

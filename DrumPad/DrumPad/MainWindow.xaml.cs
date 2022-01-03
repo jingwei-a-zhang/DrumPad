@@ -37,7 +37,6 @@ namespace DrumPad
     {
 
         AppWindow m_appWindow;
-        CompactOverlayPresenter c;
 
         public MainWindow()
         {
@@ -85,6 +84,44 @@ namespace DrumPad
 
         }
 
+        private void SwitchPresenter_Updated(object sender, RoutedEventArgs e)
+        {
+            // Bail out if we don't have an AppWindow object.
+            if (m_appWindow != null)
+            {
+
+                AppWindowPresenterKind newPresenterKind;
+                switch (sender.As<MenuFlyoutItem>().Name)
+                {
+                    case "CompactoverlaytBtn":
+                        newPresenterKind = AppWindowPresenterKind.CompactOverlay;
+                        break;
+
+                    case "FullscreenBtn":
+                        newPresenterKind = AppWindowPresenterKind.FullScreen;
+                        break;
+
+                    case "OverlappedBtn":
+                        newPresenterKind = AppWindowPresenterKind.Overlapped;
+                        break;
+
+                    default:
+                        newPresenterKind = AppWindowPresenterKind.Default;
+                        break;
+                }
+
+                // If the same presenter button was pressed as the mode we're in, toggle the window back to Default.
+                if (newPresenterKind == m_appWindow.Presenter.Kind)
+                {
+                    m_appWindow.SetPresenter(AppWindowPresenterKind.Default);
+                }
+                else
+                {
+                    // else request a presenter of the selected kind to be created and applied to the window.
+                    m_appWindow.SetPresenter(newPresenterKind);
+                }
+            }
+        }
 
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
