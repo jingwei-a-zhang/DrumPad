@@ -37,7 +37,6 @@ namespace DrumPad
     {
 
         AppWindow m_appWindow;
-        CompactOverlayPresenter c;
 
         public MainWindow()
         {
@@ -64,12 +63,21 @@ namespace DrumPad
             return AppWindow.GetFromWindowId(myWndId);
         }
 
-        private void SwitchPresenter(object sender, RoutedEventArgs e)
+        private void SwtichPresenter_CompOverlay(object sender, RoutedEventArgs e)
         {
-
             m_appWindow.SetPresenter(AppWindowPresenterKind.CompactOverlay);
-
         }
+
+        private void SwtichPresenter_Default(object sender, RoutedEventArgs e)
+        {
+            m_appWindow.SetPresenter(AppWindowPresenterKind.Default);
+        }
+
+        private void SwtichPresenter_Fullscreen(object sender, RoutedEventArgs e)
+        {
+            m_appWindow.SetPresenter(AppWindowPresenterKind.FullScreen);
+        }
+
 
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
@@ -108,3 +116,5 @@ namespace DrumPad
         }
     }
 }
+
+
